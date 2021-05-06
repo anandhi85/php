@@ -25,6 +25,6 @@ $Dress = array (
                            "Mango" =>"Thai mango"
                        ),
                     );
-                /*print_r($fruits);*/
-               
-  ?>
+                print_r($fruits);
+
+                 ?>
