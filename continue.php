@@ -12,16 +12,19 @@ $cars = array(
             "price" => array(10,20,30),
             "discount" => array(40,50,60),
             ); 
+            
+
 foreach ($cars as $key => $val) {
 echo  "$key";
 echo "<br>";
 echo "Car name is: " . $val; 
-if ($val == "Bmw"){
-break;
-}
+
 
 if($key=="price") {
 foreach($val as $price) {
+if ($val = "price"){
+continue;
+}
 echo "Car Price is: $price <br>" ;
 }
 }
